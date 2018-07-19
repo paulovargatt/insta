@@ -14,7 +14,7 @@ import {Imagem} from './Imagem.model'
             state('visivel', style({
                 opacity: 1
             })),
-            transition('escondido <=> visivel', animate('1s ease-in')),
+          //  transition('escondido <=> visivel', animate()),
         ])
     ]
 })
